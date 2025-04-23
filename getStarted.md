@@ -59,7 +59,7 @@
 
 ![Started.](GetStarted/welcometoms.png)
 
-7. Now, on the **Azure Portal** Dashboard, click on Search bar to search and select the Resource Group as **`rg-techconnect`**.
+7. Now, on the **Azure Portal** Dashboard, click on Search bar to search and select the Resource Group as **`rg-adb-fabric`**.
    
 ![Started.](GetStarted/1.png)
 
