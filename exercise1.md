@@ -46,7 +46,7 @@ In this exercise, you will act as the Data Engineer, Eva, to transfer Contoso's 
 
    ![works-apply.png](media/labMedia/workspace01.png)
 
-5. Ensure **Fabric capacity** is enabled, verify that **techconnectnorthcentralus - North Central US** is selected under **Capacity**, and then click **Apply**.
+5. Ensure **Fabric capacity** is enabled, verify that **fabric...- North Central US** is selected under **Capacity**, and then click **Apply**.
 
    ![works-apply.png](media/labMedia/workspace02.png)
 
@@ -58,25 +58,6 @@ In this exercise, you will act as the Data Engineer, Eva, to transfer Contoso's 
 
    >**Note:** Wait for the Power BI Workspace to load.
 
-<!-- >**Note**:  If you see the pop message **Upgrade to Power BI Pro License** perform the following steps. Otherwise, skip to the next exercise.
-
-10. *Click on the **Try free** button.*
-   ![task-1.1-new2.png](media/labMedia/task-1.1-new2.png)
-
-11. *Click on the **Got it** button to continue.*
-   ![task-1.1-new3.png](media/labMedia/task-1.1-new3.png) -->
-
-<!-- 12. Click on **Workspaces** to verify if the workspace with the given name was created, if not perform the steps above again.
-
->**NOTE:** If the workspace you created is not visible, perform **step 8** again. -->
-<!-- 
-![task-1.1-new4.png](media/labMedia/task-1.1-new4.png) -->
-
-
-   
-<!-- >**Note:** Click on the collapse icon, as shown in the screenshot below, for better visibility.
-
-![collapsedicon.png](media/labMedia/collapsedicon.png) -->
 
 ### Create/Build a Lakehouse
 
@@ -186,19 +167,15 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
    ![task-wb8S.png](media/labMedia/64.4.png)
 
-3. Click on the **+ Data Sources** button and then select **Lakehouses**.
+3. Click on the **+ Add data items** button and then select **Existing data sources**.
 
-   ![task-wb8S.png](media/labMedia/64.5.png)
+   ![task-wb8S.png](media/labMedia/additem041.png)
 
-4. Select **Existing Lakehouse with Schema** and then click on the **Add** button.
+4. Select the **lakehouse** and click on **Connect** button.
 
-    ![task-wb8S.png](media/labMedia/64.6.1.png)
+   ![task-wb8S.png](media/labMedia/lakehouseconnect.png)
 
-5. Select the **lakehouse** and then click on **Add**
-
-   ![task-wb8S.png](media/labMedia/64.7.png)
-
-6.  Once the notebook is created, **hover below** the existing cell and click on **+Code** to create a new cell in the notebook. Paste the following **code** in the cell and **run** the cell.
+5.  Once the notebook is created, **hover below** the existing cell and click on **+Code** to create a new cell in the notebook. Paste the following **code** in the cell and **run** the cell.
 
     ![task-wb8S.png](media/f52.png)
 
@@ -221,7 +198,7 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
      ![task-wb8S.png](media/f53.png)
 
-7. In the notebook ribbon **Home** tab, use the **Data Wrangler** dropdown and select any one of the dataframe.
+6. In the notebook ribbon **Home** tab, use the **Data Wrangler** dropdown and select any one of the dataframe.
 
    ![task-wb8S.png](media/f38New.png)
 
@@ -229,15 +206,15 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
    ![](media/labMedia/wrangler.png)
 
-8. When Data Wrangler loads, it displays a descriptive overview of the chosen DataFrame in the **Summary** panel. Note that the table have no missing values and duplicate rows, similarly you can view data frames for other csv.
+7. When Data Wrangler loads, it displays a descriptive overview of the chosen DataFrame in the **Summary** panel. Note that the table have no missing values and duplicate rows, similarly you can view data frames for other csv.
 
    ![task-wb8S.png](media/labMedia/f39.png)
 
-9. Click on the **Back** arrow to return to the notebook.
+8. Click on the **Back** arrow to return to the notebook.
 
    ![](media/f65.png)
 
-10. Since the data is already normalized, we will load it into Delta tables. Create a **new cell** and paste the following **code** in it and **run** the cell.
+9. Since the data is already normalized, we will load it into Delta tables. Create a **new cell** and paste the following **code** in it and **run** the cell.
 
       ```
       import os
@@ -256,25 +233,25 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
     ![task-wb8S.png](media/labMedia/64.8.png)
 
-11. Once the execution is successful, **stop the Spark session**.
+10. Once the execution is successful, **stop the Spark session**.
 
-12. Click on **Lakehouse** in the left navigation pane.
+11. Click on **Lakehouse** in the left navigation pane.
 
     ![task-wb8S.png](media/labMedia/f64.png)
 
-13. Expand **tables**, expand **dbo**, click on the **three dots**, and then click on **Refresh**. 
+12. Expand **tables**, expand **dbo**, click on the **three dots**, and then click on **Refresh**. 
 
      ![task-wb8S.png](media/labMedia/64.10.1.png)
 
-14. View the successfully **loaded tables**.
+13. View the successfully **loaded tables**.
 
     ![task-wb8S.png](media/labMedia/f66.png)
 
-15. Click on **website_bounce_rate** delta table and view the website bounce rate data.
+14. Click on **website_bounce_rate** delta table and view the website bounce rate data.
 
      ![](media/labMedia/f67.png)
 
-16. You now have all the tables in **OneLake** for Contoso to leverage. Next, we proceed with data transformation using Dataflow Gen2 to transform the sales data ingested from Litware. 
+15. You now have all the tables in **OneLake** for Contoso to leverage. Next, we proceed with data transformation using Dataflow Gen2 to transform the sales data ingested from Litware. 
 
 
 
@@ -289,14 +266,9 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 1. Click on **<inject key= "WorkspaceName" enableCopy="false"/>** and select **New item** then Click on **Dataflow Gen2**.
 
    ![task-1.3.1.png](media/labMedia/f9.png)
+ 
 
-    
-
-2. If prompted, uncheck **Enable Git integration, deployment pipelines and public API scenarios (preview)** box, click on **Create** or proceed to **step 3**.
-
-    ![task-1.3.1.png](media/labMedia/f41.png)    
-
-3. Click on the top part of the **Get data** icon (**not on the dropdown arrow at the bottom of the icon**).
+2. Click on the top part of the **Get data** icon (**not on the dropdown arrow at the bottom of the icon**).
 
       ![getdataSs.png](media/labMedia/getdataSs.png)
 
@@ -304,13 +276,13 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
    
     ![getdataSs.png](media/labMedia/getdatau.png)
 
-4. In the pop-up window, navigate to **OneLake Catalog**, select **Recommended**, and then choose **Lakehouse**.
+3. In the pop-up window, navigate to **OneLake Catalog**, and click on **Lakehouse**.
 
-   >Note: If the Lakehouse doesn't appear under **Recommended**, please wait for a while and then check again under both **Recommended** and **Recent**.
+   >Note: If the Lakehouse doesn't appear, please wait for a while and then check again under both **Recommended** and **Recent**.
 
      ![task-1.2.04.S1.png](media/labMedia/task1.png)
 
-5. If you see a screen similar to the following one, click on the **Next** button otherwise move to the next step.
+4. If you see a screen similar to the following one, click on the **Next** button otherwise move to the next step.
 
    ![task-1.2.05.1.png](media/labMedia/task-1.2.05.1.png)
 
@@ -361,23 +333,6 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
       >**Note:** Due to time constraints, we will not publish and run the Dataflow from the Pipeline.
 
       >**Note:** Expand the queries pane collapsed earlier.
-
-
-<!-- 
-13. Right click on the **Sales_data csv** under **Queries** and then select **Require fast copy**.
-
-
-   >**Note:** If the **popup** does not appear, skip Step 14continue with Step 1 
-
-   ![task_1.4.7.png](media/labMedia/task_1.4.7.png)
--->
-<!--
-14. Click on **Options**, scroll down to select **Scale** and tick **Allow use of fast copy connectors** checkbox then click on **OK**.
-
-      **Note:** If **Allow use of fast copy connectors** checkbox is already checked click on **OK**.
-
-      ![](media/56.png)
--->
 
 
 13. Click on **Add data destination**, select **Lakehouse**.
@@ -434,11 +389,7 @@ Now let's use Copilot in Data pipeline to leverage the data transformation activ
 
    ![task_1.4.12.png](media/labMedia/task_1.4.12.png)
 
-5. In the Copilot pane, click on the predefined option **Ingest data** and the following text will be populated in the prompt textbox.
-
-   ```
-   Get data using copy data activity
-   ```
+5. In the Copilot pane, click on the predefined option **Ingest data** and the following text will be populated in the prompt textbox: `Get data using copy data activity`.
 
 6. Click on **Send** icon.
 
