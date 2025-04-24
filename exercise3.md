@@ -9,9 +9,9 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
 1. Navigate back to the **Microsoft Fabric tab** on your browser.
 
-2. Click on **Workspaces** and select **<inject key= "WorkspaceName" enableCopy="true"/>**.
+2. Click on **Workspaces** and select **<inject key= "WorkspaceName" enableCopy="false"/>**.
 
-   ![task-1.3.02.png](media/labMedia/task-1.3.02.png)
+   ![task-1.3.02.png](media/labMedia/l14.png)
 
 3. Click on **Filter** and select **Lakehouse**.
 
@@ -47,7 +47,7 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
    >Wait for the semantic model creation.
 
-10. Click on the **<inject key= "WorkspaceName" enableCopy="true"/>** from the left navigation menu, click on **Filter** and under **Type** select **Semantic model.**
+10. Click on the **<inject key= "WorkspaceName" enableCopy="false"/>** from the left navigation menu, click on **Filter** and under **Type** select **Semantic model.**
 
 11. Click on **website_bounce_rate_model** semantic model.
 
@@ -56,6 +56,8 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 12. To create a new report using this semantic model, Click on **three dots ...** and click on **Create report**.
 
     ![task-new7.png](media/labMedia/f58.png)
+
+    > **Note**: If you get a popup prompting you to upgrade to a Paid **Power BI Pro license**, simply click on the **Try free** button to activate the **Power BI Pro trial**, and click on **Got it**.
 
 13. Click on **Settings** icon and select **Power BI settings** from the 'Resources and extensions' section.
 

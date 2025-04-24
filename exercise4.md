@@ -50,74 +50,48 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
 
    ![task-3.1.2.png](media/labMedia/exercise5_1.3.6.png)
 
-9. Click on **Lakehouses** in the Explorer pane.
+9. Click on **+ Add data items** button and click on **Existing data sources**.
 
-   ![task-3.1.2.png](media/labMedia/exercise5_1.3.7.png)
+   ![task-3.1.2.png](media/labMedia/l15.png)
 
-10. Click on **Missing Lakehouses** and then click on **Remove all Lakehouse**.
+10. Select **lakehouse**, and click on **Connect** button.
 
-    ![task-3.1.2.png](media/labMedia/exercise5_1.3.8.png)
+    ![task-3.1.2.png](media/labMedia/l16.png)
 
-11. Click on the **Continue** button.
 
-    ![task-3.1.2.png](media/labMedia/exercise5_1.3.9.png)  
-
-12. Click on the **+ Lakehouse**.
-
-    ![task-3.1.2.png](media/labMedia/exercise5_1.3.10.png) 
-
-13. Make sure that **Existing Lakehouse with schema** radio button is selected and then click on the **Add** button.
-
-    ![task-3.1.2.png](media/labMedia/f17.png)
-
-14. Select the **lakehouse** checkbox.
-
-    ![task-3.1.2.png](media/labMedia/exercise5_1.3.12.png)
-
-15. Click on the **Add** button.
-
-    ![task-3.1.2.png](media/labMedia/exercise5_1.3.13.png)
-
-16. Click on the **Copilot** button and then click on the **Get Started** button.
+11. Click on the **Copilot** button and then click on the **Get Started** button.
 
     ![task-3.1.2.png](media/labMedia/exercise5_1.6.png)
 
      **Note:** If the **Copilot** option is not visible, click the **three dots (ellipsis)** button and select Copilot.
 
-17. Run the **first cell** of the notebook to install the copilot packages.
+12. "In the Explorer pane, click on the **ellipsis (three dots)** next to your lakehouse and select **Set as default lakehouse**.
 
-    >**Note:** This may take a while to execute, please wait till this loads completely.
-    >**Note:** If you encounter an error, you can ignore it and proceed to the next step.
+    ![task-3.1.2.png](media/labMedia/l17.png)
 
-    ![task-3.1.2.png](media/labMedia/exercise5_1.7.png)
-
-    >**Note:** Once the execution is completed, the output will appear as shown in the screenshot.
-
-       ![task-3.1.2.png](media/labMedia/f60.png)
-
-18. Copy and paste the **below prompt** in the textbox.
+13. Copy and paste the **below prompt** in the textbox.
 
       ```
       Please load "customerchurndata" table from the Lakehouse into a Spark DataFrame. Then convert that into pandas dataframe as df.
       ```
 
-19. Click on the **send** button.
+14. Click on the **send** button.
 
     ![task-3.1.2.png](media/labMedia/exercise5_1.8.png)
 
-20. Click on the **Copy code** icon.
+15. Click on the **Copy code** icon.
 
     >**Note:** The new cell will be created right above the cell.
 
     ![task-3.1.2.png](media/labMedia/exercise5_1.8.2.png)
 
-21. Click on a **+ Code** above the first cell of the notebook.
+16. Click on a **+ Code** above the first cell of the notebook.
 
     >**Note:** The new cell will be created right above the cell.
 
     ![task-3.1.2.png](media/labMedia/exercise5_1.8.1.png)
 
-22. Paste the **copied query** and run the new **cell**.
+17. Paste the **copied query** and run the new **cell**.
 
      ![task-3.1.2.png](media/labMedia/exercise5_1.9.png)
 
@@ -156,19 +130,16 @@ The rest of the notebook has similar PySpark queries to explore customer churn p
 
    ![task-3.1.2.png](media/labMedia/AutoMLf-20.png)
 
-4. Click on the **+ Data Sources** button and then select **Lakehouses**
+4. Click on the **+ Add data items** button and then select **Existing data sources**.
 
-   ![task-wb8S.png](media/labMedia/64.5.png)
+   ![task-wb8S.png](media/labMedia/l18.png)
 
-5. Select **Existing Lakehouse with Schema** radio button and then click on the **Add** button.
 
-   ![task-wb8S.png](media/labMedia/64.6.1.png)
+5. Select **lakehouse**, and click on **Connect** button.
 
-6. Select the **lakehouse** checkbox and then click on the **Add** button.
+   ![task-wb8S.png](media/labMedia/l16.png) 
 
-   ![task-wb8S.png](media/labMedia/64.7.png) 
-
-7. Click on **New AutoML Run** icon.
+6. Click on **New AutoML Run** icon.
 
    ![task-3.1.2.png](media/labMedia/AutoMLf-21.png)
 
@@ -176,33 +147,33 @@ The rest of the notebook has similar PySpark queries to explore customer churn p
 
      ![task-wb8S.png](media/labMedia/u60.png)
 
-8. Click on **lakehouse** and then click on the **Next** button.
+7. Click on **lakehouse** and then click on the **Next** button.
 
    ![task-3.1.2.png](media/labMedia/f22.png)
 
-9. Select **customerchurndata** table and click on the **Next** button..
+8. Select **customerchurndata** table and click on the **Next** button..
 
     ![task-3.1.2.png](media/labMedia/f23.png)
 
-10. Select **Binary Classification** and click on the **Next** button.
+9. Select **Binary Classification** and click on the **Next** button.
 
     ![task-3.1.2.png](media/labMedia/f24.png)
 
-11. In **Choose prediction column** dropdown select **churn** and then click on the **Next** button.
+10. In **Choose prediction column** dropdown select **churn** and then click on the **Next** button.
 
     ![task-3.1.2.png](media/labMedia/f25.png)
 
-12. Click on the **Next**.
+11. Click on the **Next**.
 
      ![task-3.1.2.png](media/labMedia/f26u.png)
 
-13. Review the Summary and the click on the **Create** button to generate AutoML notebook.
+12. Review the Summary and the click on the **Create** button to generate AutoML notebook.
 
      ![task-3.1.2.png](media/labMedia/AutoMLf-22.png)
 
     >**Note:** Wait for 20 to 30 seconds for the notebook to load.
 
-14. Since the data has already been normalized lets comment out function used for featurization, click on the notebook from the left navigation and scroll down in the Notebook to the **Step 2: Featurization** section. Locate cell number 2 within this section, and comment out lines 10 and 11 by adding **#** symbol at the beginning of each line, as shown in the screenshot.
+13. Since the data has already been normalized lets comment out function used for featurization, click on the notebook from the left navigation and scroll down in the Notebook to the **Step 2: Featurization** section. Locate cell number 2 within this section, and comment out lines 10 and 11 by adding **#** symbol at the beginning of each line, as shown in the screenshot.
 
     ![task-3.1.2.png](media/labMedia/f28.png)
  
@@ -225,21 +196,21 @@ The rest of the notebook has similar PySpark queries to explore customer churn p
 
 -->
 
-15. Click on **Run all** from the ribbon.
+14. Click on **Run all** from the ribbon.
 
     ![task-3.1.2.png](media/labMedia/f33.png)
 
     **Note:** It takes approximately 5-8 min to complete execution.
 
-16. Notice the cells as they get executed, **scroll down** to check next cell.
+15. Notice the cells as they get executed, **scroll down** to check next cell.
 
     ![task-3.1.2.png](media/labMedia/f34.png)
 
-17. **Scroll down** and notice prediction results generated from the model.
+16. **Scroll down** and notice prediction results generated from the model.
 
     ![task-3.1.2.png](media/labMedia/f61.png)
 
-18. **Scroll down** to the last cell, observe the prediction being saved in the table in OneLake.
+17. **Scroll down** to the last cell, observe the prediction being saved in the table in OneLake.
 
     ![task-3.1.2.png](media/labMedia/f36.png)
 
