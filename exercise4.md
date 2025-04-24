@@ -282,7 +282,7 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 9. Copy the above notes and paste it in **Notes for model** box. Type **What is the most sold product ?** in the chatbox and then click on the **Send** button.  
 
     ```BASH
-        What is the most sold product?
+    What is the most sold product?
     ```
 
     Asking the question again returns a different answer, **Mountain-200 Black, 46**, as shown in the below screenshot:
