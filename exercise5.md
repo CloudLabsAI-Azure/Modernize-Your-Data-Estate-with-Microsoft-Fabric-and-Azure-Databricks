@@ -74,31 +74,15 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
 
    ![task-5.2.5-2.png](media/labMedia/task-5.2.5-2.png)
 
-10. Navigate back to the Resource Group <inject key="resourcegroup" enableCopy="false"/> in the Azure Portal, and search for **Event Hubs Namespace** and click on **<inject key="eventhubNamespace" enableCopy="false"/>**.
 
-    ![eventhubnamespace](media/eventhubsearchfield.png)
-
-11. Scroll down in the left navigation pane and click on **Event Hubs** under the **Entities** section.
-
-    >**Note:** If the **left navigation** bar is collapsed, click on the **hamburger icon** at the top to expand it.
-
-    ![eventhubnamespace](media/listeventhubs.png)
-
-12. Click on the **thermostat event hub**.
-
-    ![eventhubnamespace](media/thermostat.png)
-
-13. Click on **Shared access policies** in the left pane under Settings, then click on **thermostat** and finally copy the **primary key** and paste it in a notepad for further use.
-
-    >**Note:** Expand the **settings** option if the left navigations are collapsed.
-
-    ![eventhubnamespace](media/thermostatkey.png)
-
-14. Go back to the **Microsoft Fabric** and scroll down and select **Shared Access Key** from Authentication kind dropdown, enter the Shared Access Key Name as **thermostat** and then **enter** the value copied in the earlier step for **Shared Access Key** and then click on the **Connect** button.
+14. Scroll down and select **Shared Access Key** from Authentication kind dropdown, enter the Shared Access Key Name as **thermostat**.
 
     ```BASH
         thermostat
     ```
+15. Provide the Shared access Key as: **<inject key= "EventHubPolicyPrimaryKey" enableCopy="true"/>** and click on **Connect** button.
+
+    >**Note:** Do not check in box to allow this connection to be utilized with either on-premises or VNet data gateways.
 
     ![eventhouse14.png](media/labMedia/eventhouse14.png)
 
@@ -106,37 +90,37 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
 
     ![pop-up3.png](media/labMedia/pop-up3.png)
 
-15. Select Data format as **JSON** and click on the **Next** button.
+16. Select Data format as **JSON** and click on the **Next** button.
 
     ![eventhouse15.png](media/labMedia/eventhouse15.png)
 
     >**Note:** Wait for the connection to be established.
 
-16. Click on the **Add** button.
+17. Click on the **Add** button.
 
     ![task-5.2.1new8.png](media/labMedia/task-5.2.1new8.png)
 
-17. In the Eventstream canvas, click on the **Add destination** dropdown and select **Eventhouse**.
+18. In the Eventstream canvas, click on the **Add destination** dropdown and select **Eventhouse**.
 
     ![sel-kql-db.png](media/labMedia/sel-kql-db.png)
 
-18. Select the **Event processing before ingestion** radio button, enter **RealTimeData** as the Destination name.
+19. Select the **Event processing before ingestion** radio button, enter **RealTimeData** as the Destination name.
 
     ```BASH
     RealTimeData
     ```
 
-19. In the **Workspace** field select **<inject key= "WorkspaceName" enableCopy="true"/>**. 
+20. In the **Workspace** field select **<inject key= "WorkspaceName" enableCopy="true"/>**. 
 
-20. In the **Eventhouse** dropdown select **Contoso-Eventhouse**.
+21. In the **Eventhouse** dropdown select **Contoso-Eventhouse**.
 
-21. In the **KQL Database** dropdown select **Contoso-Eventhouse**.
+22. In the **KQL Database** dropdown select **Contoso-Eventhouse**.
 
-22. Click on the **Create new** button under Destination table.
+23. Click on the **Create new** button under Destination table.
 
     ![eventhouse5.png](media/labMedia/eventhouse5.png)
 
-23. Enter the table name as **thermostat** and then click on the **Done** button.
+24. Enter the table name as **thermostat** and then click on the **Done** button.
 
     ```BASH
     thermostat
@@ -144,23 +128,23 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
 
     ![eventhouse6.png](media/labMedia/eventhouse6.png)
 
-24. Enter the Input data format as **Json** and then click on the **Save** button.
+25. Enter the Input data format as **Json** and then click on the **Save** button.
 
     >**Note:** Zoom-out on your screen if the **Input data format field** is not visible.
 
     ![eventhouse7.png](media/labMedia/eventhouse7.png)
 
-25. Drag Arrow from RealtimeDataTo-KQL' and connect it to **RealTimeData**.
+26. Drag Arrow from RealtimeDataTo-KQL' and connect it to **RealTimeData**.
 
     ![eventhouse8.png](media/labMedia/eventhouse8.png)
 
-26. Click on the **Publish** button.
+27. Click on the **Publish** button.
 
     ![task-5.2.15.png](media/labMedia/task-5.2.15.png)
 
     >**Note:** Wait for the data ingestion from EventHub to KQL DB.
 
-27. Once the status is **Active**, click **Refresh** and wait for the data preview to load.
+28. Once the status is **Active**, click **Refresh** and wait for the data preview to load.
 
     ![eventhouse17.png](media/labMedia/eventhouse17.png)
 
