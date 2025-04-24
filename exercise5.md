@@ -80,9 +80,9 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
     ```BASH
         thermostat
     ```
-15. Provide the Shared access Key as: **<inject key= "EventHubPolicyPrimaryKey" enableCopy="true"/>** and click on **Connect** button.
+15. Provide the **Shared access Key** as: **<inject key= "EventHubPolicyPrimaryKey" enableCopy="true"/>** and click on **Connect** button.
 
-    >**Note:** Do not check in box to allow this connection to be utilized with either on-premises or VNet data gateways.
+    >**Note:** Do not check in box to allow connection to be utilized with either on-premises or VNet data gateways.
 
     ![eventhouse14.png](media/labMedia/eventhouse14.png)
 
