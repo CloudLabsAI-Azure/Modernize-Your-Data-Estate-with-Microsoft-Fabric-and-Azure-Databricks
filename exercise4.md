@@ -173,9 +173,11 @@ The rest of the notebook has similar PySpark queries to explore customer churn p
 
     >**Note:** Wait for 20 to 30 seconds for the notebook to load.
 
-13. Since the data has already been normalized lets comment out function used for featurization, click on the notebook from the left navigation and scroll down in the Notebook to the **Step 2: Featurization** section. Locate cell number 2 within this section, and comment out lines 10 and 11 by adding **#** symbol at the beginning of each line, as shown in the screenshot.
+13. Since the data has already been normalized lets comment out function used for featurization, click on the notebook from the left navigation and scroll down in the Notebook to the **Step 2: Generate Features** section. Locate cell number 3 within this section, and comment out lines 11 by adding **#** symbol at the beginning of each line, as shown in the screenshot.
 
-    ![task-3.1.2.png](media/labMedia/f28.png)
+    ![task-3.1.2.png](media/labMedia/l19.png)
+
+    ![task-3.1.2.png](media/labMedia/l20.png)
  
 <!--
 14. Click on **Environment** dropdown from the ribbon and select **New Environment**.
@@ -225,9 +227,9 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
    ![task-3.1.2.png](media/labMedia/exercise5_1.3.4.png)
 
-2. Click on **New item** and search for **AI Skill**. select **AI Skill(Preview)**.
+2. Click on **New item** and search for **Data agent**. select **Data agent(Preview)**.
 
-    ![task-5.2](media/labMedia/f18.png)
+    ![task-5.2](media/labMedia/l21.png)
 
 3. In the Name field as enter **Contoso-assistant** 
 
@@ -235,11 +237,11 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
     Contoso-assistant
     ```
 
-    ![task-5.2](media/labMedia/AIskill3.png)
+    ![task-5.2](media/labMedia/l22.png)
 
-4. Click on **lakehouse** and then click on the **Confirm** button.
+4. In the Explorer pane, click on **+ Data source**, select **Lakehouse** from the available options, and then click **Add** to include it as a data source.
 
-   ![task-5.2](media/labMedia/AIskill4.png)
+   ![task-5.2](media/labMedia/l23.png)
 
 5. Click on **Refresh**, expand **Tables**, then expand **dbo**, and select the following tables as shown in the screenshot.
 
@@ -254,11 +256,8 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
     >**Note:** If the tables are not visible, hard refresh the VM browser using **Ctrl + Shft + R**.
 
-6. Click on the **Get Started** button.
 
-   ![task-5.2](media/labMedia/AIskill6.png)
-
-7. Type **What is the most sold product?** in the chatbox and click on the **Send** icon.
+6. Type **What is the most sold product?** in the chatbox and click on the **Send** icon.
 
     ```BASH
         What is the most sold product?
@@ -268,7 +267,7 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
     **Note:** This may take some time; wait until a response is received.
 
-8. AI Skill answered the question fairly well based on the selected tables.
+7. AI Skill answered the question fairly well based on the selected tables.
 
    However, the SQL query needs some improvement, it orders the products by order quantity, when total sales revenue associated with the product is the most important consideration, as shown in the above screenshot.
 
