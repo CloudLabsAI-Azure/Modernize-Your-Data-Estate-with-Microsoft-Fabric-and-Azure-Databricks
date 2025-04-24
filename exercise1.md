@@ -278,9 +278,7 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
 3. In the pop-up window, navigate to **OneLake Catalog**, and click on **Lakehouse**.
 
-   >Note: If the Lakehouse doesn't appear, please wait for a while and then check again under both **Recommended** and **Recent**.
-
-     ![task-1.2.04.S1.png](media/labMedia/task1.png)
+     ![task-1.2.04.S1.png](media/labMedia/l7.png)
 
 4. If you see a screen similar to the following one, click on the **Next** button otherwise move to the next step.
 

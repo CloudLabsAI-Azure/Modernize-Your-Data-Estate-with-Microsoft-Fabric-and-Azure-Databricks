@@ -6,27 +6,15 @@ This exercise shows how Microsoft Fabric with Databricks enabled Contoso to solv
 
 Delta Live Tables (DLT) allow you to build and manage reliable data pipelines that deliver high-quality data in Lakehouse. DLT helps data engineering teams simplify ETL development and management with declarative pipeline development, automatic data testing, and deep visibility for monitoring and recovery.
 
-1. Go back to the browser tab of **Resource Group** .
+1. Please use the following link to navigate to the Azure Databricks workspace **<inject key= "NewdatabricksWorkspaceUrl" enableCopy="True"/>**
 
-    Search for the Azure Databricks in the Resource group search field and click on **adb-techconnect....**.
+2. Scroll down in the left navigation pane and click on **Pipelines**.
 
-    ![databrickssignin.png](media/labMedia/databrickssearch.png)
+    ![task-2.2.2new.png](media/labMedia/l9.png)
 
-2. Click on the **Launch Workspace**.
+4. Select the **Create pipeline** and then click on the **ETL Pipeline** button.
 
-    ![databrickssignin.png](media/labMedia/launchdatabricks.png)
-
-    **Note:** Click on the **Sign in with Microsoft Entra ID** button.
-
-    ![databrickssignin.png](media/labMedia/databrickssignin.png)
-
-3. Scroll down in the left navigation pane and click on **Delta Live Tables**.
-
-    ![task-2.2.2new.png](media/labMedia/task-2.2.2new.png)
-
-4. Click on the **Create pipeline** button.
-
-    ![task-2.2.3.1new.png](media/labMedia/task-2.2.3.1new.png)
+    ![task-2.2.3.1new.png](media/labMedia/l10.png)
 
 5. Enter the name of the pipeline as **DLT_Pipeline** , scroll down to **Paths** and click on the **file icon** to browse the notebook.
 
@@ -88,25 +76,25 @@ Mirroring the Azure Databricks Catalog structure in Microsoft Fabric allows seam
 
    ![Task-2.3_2.png](media/labMedia/Task-2.3_2.png)
 
-4. When the **New source** window pops up, click on the **Create new connection** radio button.
+4. When the **New source** window pops up, click on the **New connection** radio button.
 
-   ![Task-2.3_3.png](media/labMedia/Task-2.3_3.png)
+   ![Task-2.3_3.png](media/labMedia/l11.png)
 
 5. In the URL field enter **<inject key= "databricksurl" enableCopy="true"/>**
 
 6. Now, select **Service principal** from 'Authentication kind' dropdown box, and enter the following details.
 
-- Tenant ID: **<inject key= "TenantID" enableCopy="true"/>**
+- Tenant ID: **<inject key= "catalogTenantID" enableCopy="true"/>**
 - Service principal client ID: **<inject key= "ClientID" enableCopy="true"/>**
 - Service principal Key: **<inject key= "Secret" enableCopy="true"/>**
 
 7. click on the **Connect** button.
 
-   ![Task-2.3_7.png](media/labMedia/Task-2.3_7.png)
+   ![Task-2.3_7.png](media/labMedia/l12.png)
 
 8. Click on the **Next** button.
 
-   ![Task-2.3_7.1.png](media/labMedia/Task-2.3_7.1.png)
+   ![Task-2.3_7.1.png](media/labMedia/l13.png)
 
 9. In the **Choose data** screen, select the Catalog name as **litware_unity_catalog** from the dropdown box, and ensure **default** and **rag** schema is selected, then select the checkbox **Automatically sync future catalog changes for the selected schema** (to mirror future tables) if not ticked and click on **Next** button.
 
