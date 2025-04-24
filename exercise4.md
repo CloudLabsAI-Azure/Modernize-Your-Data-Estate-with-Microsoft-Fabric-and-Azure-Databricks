@@ -267,7 +267,7 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
     **Note:** This may take some time; wait until a response is received.
 
-7. AI Skill answered the question fairly well based on the selected tables.
+7. Data agent answered the question fairly well based on the selected tables.
 
    However, the SQL query needs some improvement, it orders the products by order quantity, when total sales revenue associated with the product is the most important consideration, as shown in the above screenshot.
 
@@ -279,7 +279,7 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
    The primary table to use is FactInternetSales. Only use FactResellerSales if explicitly asked about resales or when asked about total sales.
    ```
 
-9. Copy the above notes and paste it in **Notes for model** box. Type **What is the most sold product ?** in the chatbox and then click on the **Send** button.  
+9. Copy the above notes and click on the **Data agent instrutions** paste it in **Data agent instrutions** box. Type **What is the most sold product ?** in the chatbox and then click on the **Send** button.  
 
     ```BASH
     What is the most sold product?
@@ -291,13 +291,13 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
    In addition to instructions, examples serve as another effective way to guide the AI. If you have questions that your AI skill often receives, or questions that require complex joins.
 
-10. In the Example SQL queries click on **edit** icon.
+10. Click on the **Example queries** In the Example queries click on **edit** icon.
 
-    ![task-5.2](media/labMedia/AIskill9.png)
+    ![task-5.2](media/labMedia/l26.png)
 
 11. Click on **+ Add Example**, enter the provided question along with its corresponding SQL query, and then click the **Close (X)** button.
 
-     ![task-5.2](media/labMedia/AIskill10.png)
+     ![task-5.2](media/labMedia/l27.png)
 
     |Question| SQL query|
     |--------|----------|
@@ -312,7 +312,7 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
     who are the top 5 customers by total sales amount?
     ```
 
-    ![task-5.2](media/labMedia/AIskill12.png)
+     ![task-5.2](media/labMedia/l28.png)
 
 13. Click on **Publish**.
 
