@@ -175,6 +175,8 @@ We use KQL to query the thermostat data that’s streaming in near real-time fro
 
    ![eventhouse10.png](media/labMedia/eventhouse10.png)
 
+    >**Note:** If **Welcome to KQL Queryset!** pup-up appears click on **Not Now** or close the pop-up.
+
 4. Place your cursor inside the **query** field, select all using **Ctrl + A** and **delete** the pre-written query.
 
    ![task-5.3.5.png](media/labMedia/task-5.3.5.png)
