@@ -58,6 +58,9 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
 
     ![task-3.1.2.png](media/labMedia/l16.png)
 
+11. Click on **Connect** dropdown in the Home Ribbon and click on **New standard session** to connect to a session.
+
+    ![task-3.1.2.png](media/labMedia/standardsession.png)
 
 11. Click on the **Copilot** button and then click on the **Get Started** button.
 
@@ -178,25 +181,6 @@ The rest of the notebook has similar PySpark queries to explore customer churn p
     ![task-3.1.2.png](media/labMedia/l19.png)
 
     ![task-3.1.2.png](media/labMedia/l20.png)
- 
-<!--
-14. Click on **Environment** dropdown from the ribbon and select **New Environment**.
-
-![task-3.1.2.png](media/labMedia/f29.png)
-
-15. In the **Name** feild enter ``Myenv``.
-
-![task-3.1.2.png](media/labMedia/f30.png)
-
-16. Navigate back to the notebook from the left navigation pane.
-
-![task-3.1.2.png](media/labMedia/f31.png)
-
-17. Click on **Environment** dropdown from the ribbon and select **Myenv**.
-
-![task-3.1.2.png](media/labMedia/f32.png)
-
--->
 
 14. Click on **Run all** from the ribbon.
 
@@ -231,7 +215,7 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
     ![task-5.2](media/labMedia/l21.png)
 
-3. In the Name field as enter **Contoso-assistant** 
+3. In the **Create data agent** pop-up: Enter **Contoso-assistant** in the name field and click on **Create** button.
 
     ```BASH
     Contoso-assistant
@@ -243,21 +227,25 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
    ![task-5.2](media/labMedia/l23.png)
 
-5. Click on **Refresh**, expand **Tables**, then expand **dbo**, and select the following tables as shown in the screenshot.
+5. Click on **Refresh** button.
 
-- dimcustomer
-- dimdate
-- dimproduct
-- dimreseller
-- factinternetsales
-- factresellersales
+    ![task-5.2](media/labMedia/refresh9.png)
 
-   ![task-5.2](media/labMedia/items.png)
+6. Under lakehouse dropdown, expand **dbo**, and select the following tables as shown in the screenshot.
+
+    - dimcustomer
+    - dimdate
+    - dimproduct
+    - dimreseller
+    - factinternetsales
+    - factresellersales
+
+        ![task-5.2](media/labMedia/items.png)
 
     >**Note:** If the tables are not visible, hard refresh the VM browser using **Ctrl + Shft + R**.
 
 
-6. Type **What is the most sold product?** in the chatbox and click on the **Send** icon.
+7. Type **What is the most sold product?** in the chatbox and click on the **Send** icon.
 
     ```BASH
         What is the most sold product?
@@ -267,7 +255,7 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
     **Note:** This may take some time; wait until a response is received.
 
-7. Data agent answered the question fairly well based on the selected tables.
+8. Data agent answered the question fairly well based on the selected tables.
 
    However, the SQL query needs some improvement, it orders the products by order quantity, when total sales revenue associated with the product is the most important consideration, as shown in the above screenshot.
 

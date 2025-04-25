@@ -263,7 +263,7 @@ Using another great feature in Microsoft Fabric’s Data Factory, called Fast Co
 You will experience how easy it is to use Fast Copy to transform 100M rows of Litware's sales data into the Lakehouse.
 
 
-1. Click on **<inject key= "WorkspaceName" enableCopy="false"/>** and select **New item** then Click on **Dataflow Gen2**.
+1. In the left pane, click on the **<inject key="WorkspaceName" enableCopy="false"/>** workspace, then select **New item**, and click on **Dataflow Gen2**.
 
    ![task-1.3.1.png](media/labMedia/f9.png)
  
@@ -367,7 +367,7 @@ Congrats on completing this data transformation exercise!
 
 Now let's use Copilot in Data pipeline to leverage the data transformation activities.
 
-1. Click on the **<inject key= "WorkspaceName" enableCopy="false"/>** worspace at the **left** pane of the screen, then click on the **New item** button.
+1. Click on the **<inject key= "WorkspaceName" enableCopy="false"/>** workspace at the **left** pane of the screen, then click on the **New item** button.
 
    ![task_1.4.1.png](media/labMedia/task_1.4.1.png)
 
