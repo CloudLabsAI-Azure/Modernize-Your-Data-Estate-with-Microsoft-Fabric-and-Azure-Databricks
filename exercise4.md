@@ -58,43 +58,45 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
 
     ![task-3.1.2.png](media/labMedia/l16.png)
 
-11. Click on **Connect** dropdown in the Home Ribbon and click on **New standard session** to connect to a session.
+
+11. In the Explorer pane, click on the **ellipsis (three dots)** next to your lakehouse and select **Set as default lakehouse**.
+
+    ![task-3.1.2.png](media/labMedia/l17.png)
+
+
+12. Click on **Connect** dropdown in the Home Ribbon and click on **New standard session** to connect to a session.
 
     ![task-3.1.2.png](media/labMedia/standardsession.png)
 
-11. Click on the **Copilot** button and then click on the **Get Started** button.
+13. Click on the **Copilot** button and then click on the **Get Started** button.
 
     ![task-3.1.2.png](media/labMedia/exercise5_1.6.png)
 
      **Note:** If the **Copilot** option is not visible, click the **three dots (ellipsis)** button and select Copilot.
 
-12. "In the Explorer pane, click on the **ellipsis (three dots)** next to your lakehouse and select **Set as default lakehouse**.
-
-    ![task-3.1.2.png](media/labMedia/l17.png)
-
-13. Copy and paste the **below prompt** in the textbox.
+14. Copy and paste the **below prompt** in the textbox.
 
       ```
       Please load "customerchurndata" table from the Lakehouse into a Spark DataFrame. Then convert that into pandas dataframe as df.
       ```
 
-14. Click on the **send** button.
+15. Click on the **send** button.
 
     ![task-3.1.2.png](media/labMedia/exercise5_1.8.png)
 
-15. Click on the **Copy code** icon.
+16. Click on the **Copy code** icon.
 
     >**Note:** The new cell will be created right above the cell.
 
     ![task-3.1.2.png](media/labMedia/exercise5_1.8.2.png)
 
-16. Click on a **+ Code** above the first cell of the notebook.
+17. Click on a **+ Code** above the first cell of the notebook.
 
     >**Note:** The new cell will be created right above the cell.
 
     ![task-3.1.2.png](media/labMedia/exercise5_1.8.1.png)
 
-17. Paste the **copied query** and run the new **cell**.
+18. Paste the **copied query** and run the new **cell**.
 
      ![task-3.1.2.png](media/labMedia/exercise5_1.9.png)
 
