@@ -400,8 +400,8 @@ Now let's use Copilot in Data pipeline to leverage the data transformation activ
 8. Replace the existing prompt by entering the following **prompt** in the textbox and click on **Send** icon.
 
    ```
-   Source connection of "copy0" (Copy) is lakehouse;
-   Destination connection of "copy0" (Copy) is lakehouse
+   Source connection of "CopyDataActivity" (Copy) is lakehouse;
+   Destination connection of "CopyDataActivity" (Copy) is lakehouse
    ```
 
    ![task_1.4.15.png](media/labMedia/task_1.4.15.png)
@@ -409,25 +409,29 @@ Now let's use Copilot in Data pipeline to leverage the data transformation activ
 9. Replace the following **prompt** in the textbox and click on **Send** icon.
 
       ```BASH
-      Table of Source connection "lakehouse" (Lakehouse) in "copy0" (Copy) is data/CampaignData/campaign-data.csv;
-      table of Destination connection "lakehouse" (Lakehouse) in "copy0" (Copy) is dbo.CampaignData
+      Table of Source connection "lakehouse" (Lakehouse) in "CopyDataActivity" (Copy) is data/CampaignData/campaign-data.csv;
+      table of Destination connection "lakehouse" (Lakehouse) in "CopyDataActivity" (Copy) is dbo.CampaignData
       ```
 
       ![task_1.4.16.png](media/labMedia/task_1.4.16.png)
 
-      >**Note:** If you see the message "Type / to show all connections," click on the **Source** tab, then select **lakehouse** and set the **Root Folder** to **Files**, and then run the above prompt again.
-
-    ![task_1.4.16.png](media/labMedia/pipelineerror.png)
+      >**Note:** Once the data pipeline is updated, the below screen will appear. Click on **Pipeline validation output** close **x** icon.
+    
+      ![task_1.4.16.png](media/labMedia/outputupdated.png)
 
 10. Click on the **Copy data** activity, scroll up the **Details pane**, click on the **Source** tab and click on the **Preview data**.
 
-    ![task_1.4.17.png](media/labMedia/task_1.4.17.png)
+      ![task_1.4.17.png](media/labMedia/task_1.4.17.png)
+
+      >**Note:** If Copilot is unable to select the campaign-data.csv table, navigate to the **source** and set the Root folder as **Files** and the **File path type as File path**. Then, under File path, click on **Browse** and manually select the file path: **data/CampaignData/campaign-data.csv**.
+
+      ![task_1.4.18.png](media/labMedia/soolution.png)
 
 11. Review the data and then click on the **Run this pipeline** option in the Copilot pane.
 
-   ![task_1.4.18.png](media/labMedia/task_1.4.18.png)
+      ![task_1.4.18.png](media/labMedia/task_1.4.18.png)
 
-   >Close the Preview data pop-up window.
+      >Close the Preview data pop-up window.
 
 12. Click on the **Save and run** button.
 
