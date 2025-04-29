@@ -36,7 +36,7 @@ In this exercise, you will act as the Data Engineer, Eva, to transfer Contoso's 
 
 3. From the left navigation pane, click on **Workspaces** and then the **+ New workspace** button.
 
-	![task-1.1.2.png](media1/labMedia/task-1.1.2.png)
+	![task-1.1.2.png](media/labMedia/task-1.1.2.png)
 
 4. Type the name **<inject key= "WorkspaceName" enableCopy="true"/>**, **validate** the availability of the name, and click on **Advanced**.
 
@@ -44,17 +44,17 @@ In this exercise, you will act as the Data Engineer, Eva, to transfer Contoso's 
 
    >**NOTE:** If the name **<inject key= "WorkspaceName" enableCopy="false"/>** is already taken, refresh the page and check again. A workspace with that name may already be created. If so, add a different suffix until the name is available.
 
-   ![works-apply.png](media1/labMedia/workspace01.png)
+   ![works-apply.png](media/labMedia/workspace01.png)
 
 5. Ensure **Fabric capacity** is enabled, verify that **fabric...- North Central US** is selected under **Capacity**, and then click **Apply**.
 
-   ![works-apply.png](media1/labMedia/workspace02.png)
+   ![works-apply.png](media/labMedia/workspace02.png)
 
    >**Note:** Close any pop-up that appears on the screen.
 
-   ![gotit-popup.png](media1/labMedia/gotit-popup.png)
+   ![gotit-popup.png](media/labMedia/gotit-popup.png)
 
-   ![gotit-popup.1.png](media1/labMedia/gotit-popup.1.png)
+   ![gotit-popup.1.png](media/labMedia/gotit-popup.1.png)
 
    >**Note:** Wait for the Power BI Workspace to load.
 
