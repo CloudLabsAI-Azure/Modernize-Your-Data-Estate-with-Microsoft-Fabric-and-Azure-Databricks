@@ -59,6 +59,8 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
     > **Note**: If you get a popup prompting you to upgrade to a Paid **Power BI Pro license**, simply click on the **Try free** button to activate the **Power BI Pro trial**, and click on **Got it**.
 
+    ![task-new7.png](media/labMedia/tryfree.png)
+
 13. Click on **Settings** icon and select **Power BI settings** from the 'Resources and extensions' section.
 
     >**Note:** If the settings icon is not visible, click on the three dots next to Profile icon and select Settings.
