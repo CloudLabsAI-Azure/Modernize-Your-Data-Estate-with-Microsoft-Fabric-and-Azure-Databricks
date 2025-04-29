@@ -17,6 +17,7 @@
 
     - **Guide**
     - **Environment**
+    - **Resources**
     - **Help**
 
    ![Started.](GetStarted/l4.png)
