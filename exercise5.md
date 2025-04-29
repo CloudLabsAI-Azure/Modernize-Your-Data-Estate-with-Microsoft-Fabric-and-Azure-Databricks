@@ -86,10 +86,6 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
 
     ![eventhouse14.png](media/labMedia/eventhouse14.png)
 
-    >**Note:** Close any pop-up which appears on screen.
-
-    ![pop-up3.png](media/labMedia/pop-up3.png)
-
 12. Select Data format as **JSON** and click on the **Next** button.
 
     ![eventhouse15.png](media/labMedia/eventhouse15.png)
