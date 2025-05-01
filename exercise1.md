@@ -208,7 +208,7 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
 7. When Data Wrangler loads, it displays a descriptive overview of the chosen DataFrame in the **Summary** panel. Note that the table have no missing values and duplicate rows, similarly you can view data frames for other csv.
 
-   ![task-wb8S.png](media/labMedia/f39.png)
+      ![task-wb8S.png](media/labMedia/f39.png)
 
 8. Click on the **Back** arrow to return to the notebook.
 
