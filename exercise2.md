@@ -19,14 +19,14 @@ Delta Live Tables (DLT) allow you to build and manage reliable data pipelines th
 5. Enter the name of the pipeline as **DLT_Pipeline** , scroll down to **Paths** and click on the **file icon** to browse the notebook.
 
     ```BASH
-    DLT_Pipeline
+        DLT_Pipeline
     ```
 
     ![task-2.2.3new.png](media/labMedia/task-2.2.3new.png)
 
 6. Click on **Shared**, click on **Analytics with ADB**, click on the **01 DLT Notebook** and then click on the **Select** button.
 
-   ![task-2.2.4new.png](media/labMedia/f13.png)
+    ![task-2.2.4new.png](media/labMedia/f13.png)
 
 7. Type **dbo** in **Default schema** feild and click on the **Create** button.
 
