@@ -12,35 +12,35 @@ Delta Live Tables (DLT) allow you to build and manage reliable data pipelines th
 
     ![task-2.2.2new.png](media/labMedia/l9.png)
 
-4. Select the **Create pipeline** and then click on the **ETL Pipeline** button.
+3. Select the **Create pipeline** and then click on the **ETL Pipeline** button.
 
     ![task-2.2.3.1new.png](media/labMedia/l10.png)
 
-5. Enter the name of the pipeline as **DLT_Pipeline** , scroll down to **Paths** and click on the **file icon** to browse the notebook.
+4. Enter the name of the pipeline as **DLT_Pipeline** , scroll down to **Paths** and click on the **file icon** to browse the notebook.
 
     ```BASH
         DLT_Pipeline
     ```
 
-![task-2.2.3new.png](media/labMedia/task-2.2.3new.png)
+    ![task-2.2.3new.png](media/labMedia/task-2.2.3new.png)
 
-6. Click on **Shared**, click on **Analytics with ADB**, click on the **01 DLT Notebook** and then click on the **Select** button.
+5. Click on **Shared**, click on **Analytics with ADB**, click on the **01 DLT Notebook** and then click on the **Select** button.
 
-![task-2.2.4new.png](media/labMedia/f13.png)
+    ![task-2.2.4new.png](media/labMedia/f13.png)
 
-7. Type **dbo** in **Default schema** feild and click on the **Create** button.
+6. Type **dbo** in **Default schema** feild and click on the **Create** button.
 
    ![task-2.2.5new.png](media/labMedia/f45.png)
 
-8. Click on the **Start** button.
+7. Click on the **Start** button.
 
     ![task-2.2.5new.png](media/labMedia/f14.png)
 
     >**Note**: The pipeline will take 5-7 minutes to complete. In the meantime, you can move on to the next section and return to this one afterward.
 
-9. Once the execution is completed, we will see a result similar to the one in the following screenshot.
+8. Once the execution is completed, we will see a result similar to the one in the following screenshot.
 
-     ![task-2.2.7.png](media/labMedia/task-2.2.7.png)
+    ![task-2.2.7.png](media/labMedia/task-2.2.7.png)
 
 This beautiful lineage view showing the Medallion Architecture is a data design pattern commonly used in Databricks to organize and optimize data processing workflows in a lakehouse architecture. It structures data into three logical layers—Bronze, Silver, and Gold—ensuring data quality, accessibility, and scalability for analytics and machine learning.
 
