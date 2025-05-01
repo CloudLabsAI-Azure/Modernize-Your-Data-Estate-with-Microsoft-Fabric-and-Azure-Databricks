@@ -109,9 +109,9 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
 21. Click on the Copilot chat box field and enter the prompt below.
 
-      ```
+    ```
       Create a report Bounce Rate analysis, to show the correlation between customer sentiment, particularly among millennials and Gen Z, unsuccessful product searches across different devices, and the website's bounce rate by customer generations.
-      ```  
+    ```  
 
     >**Note:** Wait for the prompt to populate.
 
@@ -143,35 +143,3 @@ We’ll ask Copilot for suggestions based on the results and data in the report.
 24. Look at the suggestions Copilot provided. Copilot creates the desired Power BI report and even goes a step further to give powerful insights. Wendy realizes that for the website bounce rate to improve, Contoso needs to transform their mobile website experience for millennials. This helps them reduce their millennial related customer churn too! Now, what if Contoso’s leadership team needed a quick summary of this entire report? **Smart Narrative** to the rescue! 
 	
     ![task-new14.png](media/labMedia/task-new14.png)
-
-<!--	
-25. Expand the **Visualizations** pane and select the **Narratives** visual. 
-
-    ![visualizations.png](media/labMedia/visualizations.png)
-
-26. Click on the **Copilot (preview)** button within the visual.
-
-    ![open-narrative.png](media/labMedia/open-narrative.png)
-	
-27. Select **Give an executive summary**. 
-
-28. generated summary. See how easy it was to get an executive summary with absolutely no IT resource dependency!
- 
-    >**Note:** If you don't see 'Give an executive summary' option, click on the **Copilot narrative** chat box field, enter the prompt below, and click on **Update** :
-
-      ```
-      Summarize the data, provide an executive summary, indicating important takeaways.
-      ```
-
-    ![task-new16.png](media/labMedia/task-new16.png)
-
-29. Expand the **narrative** from the corner to get a better readable view of the result.
-
-    ![expand-arrow.png](media/labMedia/expand-arrow.png)
-
-30. Click on the **Close** button in the pop-up window.
-
-    ![close-copilot.png](media/labMedia/close-copilot.png)
-	
-The summary could also be generated in another language, if specified. Additionally, the summary updates if you filter the report on any visual.
--->

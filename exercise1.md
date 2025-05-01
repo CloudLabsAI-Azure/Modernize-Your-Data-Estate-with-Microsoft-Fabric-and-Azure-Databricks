@@ -177,7 +177,7 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
 5.  Once the notebook is created, **hover below** the existing cell and click on **+Code** to create a new cell in the notebook. Paste the following **code** in the cell and **run** the cell.
 
-    ![task-wb8S.png](media/f52.png)
+      ![task-wb8S.png](media/f52.png)
 
       ```BASH
       import os
@@ -194,9 +194,9 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
       df_website_bounce_rate= spark.read.format("csv").option("header","true").load('Files/litwaredata/'+csv_files[7])
       ```
 
-     > **Note:** Once the Spark code execution is completed, the output will appear as shown in the screenshot.
+      > **Note:** Once the Spark code execution is completed, the output will appear as shown in the screenshot.
 
-     ![task-wb8S.png](media/f53.png)
+      ![task-wb8S.png](media/f53.png)
 
 6. In the notebook ribbon **Home** tab, use the **Data Wrangler** dropdown and select any one of the dataframe.
 
