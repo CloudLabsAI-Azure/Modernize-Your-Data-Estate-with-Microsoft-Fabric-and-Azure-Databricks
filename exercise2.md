@@ -22,11 +22,11 @@ Delta Live Tables (DLT) allow you to build and manage reliable data pipelines th
         DLT_Pipeline
     ```
 
-    ![task-2.2.3new.png](media/labMedia/task-2.2.3new.png)
+![task-2.2.3new.png](media/labMedia/task-2.2.3new.png)
 
 6. Click on **Shared**, click on **Analytics with ADB**, click on the **01 DLT Notebook** and then click on the **Select** button.
 
-    ![task-2.2.4new.png](media/labMedia/f13.png)
+![task-2.2.4new.png](media/labMedia/f13.png)
 
 7. Type **dbo** in **Default schema** feild and click on the **Create** button.
 
@@ -124,7 +124,7 @@ Mirroring the Azure Databricks Catalog structure in Microsoft Fabric allows seam
  
 13. Click on **New SQL Query**, then copy and paste the following **SQL query** in query editor and click on **Run** button.
  
-    ![Task-2.3_10.png](media/labMedia/f80.png)
+![Task-2.3_10.png](media/labMedia/f80.png)
  
     ```BASH
     SELECT 
