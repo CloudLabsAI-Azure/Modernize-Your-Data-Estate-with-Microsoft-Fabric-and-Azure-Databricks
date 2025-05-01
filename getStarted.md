@@ -65,7 +65,7 @@
    ![Started.](GetStarted/1.png)
 
 
-    >**Note:** To ensure the **deployment is successful!** Verify that the **Resource Group** contains **8 resources**.
+   >**Note:** To ensure the **deployment is successful!** Verify that the **Resource Group** contains **8 resources**.
 
    ![Started.](GetStarted/l6.png)
 
