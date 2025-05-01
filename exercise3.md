@@ -136,8 +136,6 @@ We’ll ask Copilot for suggestions based on the results and data in the report.
     ```
     Based on the data in the page, what can be done to improve the bounce rate of millennials?
     ```
-
-	
     ![task-new13.png](media/labMedia/task-new13.png)
 	
 24. Look at the suggestions Copilot provided. Copilot creates the desired Power BI report and even goes a step further to give powerful insights. Wendy realizes that for the website bounce rate to improve, Contoso needs to transform their mobile website experience for millennials. This helps them reduce their millennial related customer churn too! Now, what if Contoso’s leadership team needed a quick summary of this entire report? **Smart Narrative** to the rescue! 
