@@ -1,0 +1,50 @@
+[
+  {
+    "Name": "Modern Analytics with Microsoft Fabric and Azure Databricks DREAM Lab",
+    "Language": "English",
+    "BaseURL": "https://github.com/CloudLabsAI-Azure/Modernize-Your-Data-Estate-with-Microsoft-Fabric-and-Azure-Databricks",
+    "Files": [
+			{
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Modernize-Your-Data-Estate-with-Microsoft-Fabric-and-Azure-Databricks/refs/heads/main/getStarted.md",
+        "Order": 0
+      },
+
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Modernize-Your-Data-Estate-with-Microsoft-Fabric-and-Azure-Databricks/refs/heads/main/intro.md",
+        "Order": 1
+      },
+
+			{
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Modernize-Your-Data-Estate-with-Microsoft-Fabric-and-Azure-Databricks/refs/heads/main/exercise1.md",
+        "Order": 2
+      },
+
+			{
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Modernize-Your-Data-Estate-with-Microsoft-Fabric-and-Azure-Databricks/refs/heads/main/exercise2.md",
+        "Order": 3
+      },
+
+			{
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Modernize-Your-Data-Estate-with-Microsoft-Fabric-and-Azure-Databricks/refs/heads/main/exercise3.md",
+        "Order": 4
+      },
+
+			{
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Modernize-Your-Data-Estate-with-Microsoft-Fabric-and-Azure-Databricks/refs/heads/main/exercise4.md",
+        "Order": 5
+      },
+
+			{
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Modernize-Your-Data-Estate-with-Microsoft-Fabric-and-Azure-Databricks/refs/heads/main/exercise5.md",
+        "Order": 6
+      },
+
+			{
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Modernize-Your-Data-Estate-with-Microsoft-Fabric-and-Azure-Databricks/refs/heads/main/exercise6.md",
+        "Order": 7
+      }
+
+
+    ]
+  }
+]
