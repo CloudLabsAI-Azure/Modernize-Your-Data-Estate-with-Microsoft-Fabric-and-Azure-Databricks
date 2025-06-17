@@ -343,11 +343,9 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
      ![](media/u58.png)
 
-14. Click on **Next** button.
+14. Click on **lakehouse** button.
 
-    ![](media/58.png)
-
-15. Expand the workspace **<inject key= "WorkspaceName" enableCopy="false"/>**, and select **lakehouse**.
+    ![](media/lol1.png)
 
 16. Enter the table name as **salesdataupdated** and then click on the **Next** button.
 
