@@ -243,6 +243,8 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
      ![task-wb8S.png](media/labMedia/64.10.1.png)
 
+     > Note: If dbo is not visible, try refreshing the tables. The tables should then appear directly under the Tables section.
+
 13. View the successfully **loaded tables**.
 
     ![task-wb8S.png](media/labMedia/f66.png)
